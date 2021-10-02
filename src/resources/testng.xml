@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TasteMeta Automation Test Suite">
+
+<listeners>
+		<listener class-name="com.qa.ScreenshotListener.ScreenshotListener" />
+	</listeners>
+
+
+	<test name="TasteMeta Test Cases">
+		<classes>
+			
+			 <class name="com.tastemeta.qa.testcases.LoginPageTest"></class>
+			<class name="com.tastemeta.qa.testcases.CreateAccountPageTest"></class>
+			<class name="com.tastemeta.qa.testcases.HomePageTest"></class>
+			
+		</classes>
+	</test>
+</suite>

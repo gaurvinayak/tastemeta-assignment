@@ -1,0 +1,30 @@
+[
+  {
+    "TC_Name": "ChangePwdTest",
+    "email": "vg+9@gaurvinayak.com",
+    "oldPwd": "Cp@769021",
+    "updatePwd": "Cp@",
+    "GuestName": "Vinayak Gaur"
+  },
+  {
+    "TC_Name": "loginPageInvalidDetailsTest",
+    "email": "sometext@gmail.com",
+    "Pwd": "otherpwd",
+    "GuestName": "Vinayak Gaur"
+  },
+  {
+    "TC_Name": "loginPageValidDetailsTest",
+    "email": "vg+6@gaurvinayak.com",
+    "Pwd": "Vg$12345",
+    "GuestName": "Vinayak Gaur"
+  },
+  {
+    "TC_Name": "CreateAccountTest",
+    "email": "@gaurvinayak.com",
+    "Pwd": "Vg$12345",
+    "PhoneNumber": "9176866154",
+    "FirstName":"Vinayak",
+    "LastName":"Gaur",
+    "GuestName": "Vinayak Gaur"
+  }
+]
